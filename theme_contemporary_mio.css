@@ -52,8 +52,6 @@
   border: 1px solid #cccccc;
   border-collapse: collapse;
   border-spacing: 3px;
-  display: block;
-  overflow-y: auto;
 }
 
 table.reportTable th {
@@ -74,22 +72,13 @@ table.reportTable td {
   border-collapse: collapse;
 }
 
-table.reportTable tr.total td {
-  position: sticky;
-  bottom: 0;
-  z-index: 9;
-  background-color: #d3d3d3 !important;
-  font-weight: bold;
-  border-top: 2px solid #000 !important;
-}
-
 .headerCell {
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
   padding: 5px; 
   background-color: #009797;
   color: white;
-  position: fixed;
+/*   position: fixed; */
 }
 
 .indexCell.transposed {
@@ -142,7 +131,7 @@ table.reportTable tr.total td {
   background: #d3d3d3;
   position: sticky;
   bottom: 0;
-  z-index: 0;
+  z-index: 5;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
