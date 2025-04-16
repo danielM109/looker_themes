@@ -57,12 +57,13 @@
 table.reportTable th {
   position: sticky;
   top: 0;
-  z-index: 5;
+  z-index: 10;
   border: 1px solid #cccccc;
   border-bottom: 1px solid #000000 !important;
   padding: 5px;
   background-color: #009797;
   color: white;
+  margin-top: 0px;
 }
 
 table.reportTable td {
