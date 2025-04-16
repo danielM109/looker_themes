@@ -63,7 +63,7 @@ table.reportTable th {
   padding: 5px;
   background-color: #009797;
   color: white;
-  border-bottom: 4px solid #000000 !important; 
+  border-top: 4px solid #000000 !important; 
 }
 
 table.reportTable td {
@@ -126,7 +126,7 @@ table.reportTable td {
   font-weight: bold !important;
 }*/
 
-/*.total {
+.total {
   border-top: 2px solid #000000 !important;
   font-weight: bold !important;
   background: #d3d3d3;
@@ -134,21 +134,9 @@ table.reportTable td {
   bottom: 0;
   z-index: 5;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-}*/
-
-.total {
-  border-top: 4px solid #000000 !important; /* 👈 Borde más grueso arriba */
-  font-weight: bold !important;
-  background: #d3d3d3 !important;
+  border-bottom: 4px solid #000000 !important; 
 }
 
-table.reportTable tr.total td {
-  position: sticky;
-  bottom: 0;
-  z-index: 1;
-  background-color: #d3d3d3 !important;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-}
 
 .total.transposed {
   border-top: 0px !important;
