@@ -52,6 +52,9 @@
   border: 1px solid #cccccc;
   border-collapse: collapse;
   border-spacing: 3px;
+  display: block;
+  max-height: 500px;
+  overflow-y: auto;
 }
 
 table.reportTable th {
@@ -70,6 +73,15 @@ table.reportTable td {
   padding: 5px;
   border: 1px solid #cccccc;
   border-collapse: collapse;
+}
+
+table.reportTable tr.total td {
+  position: sticky;
+  bottom: 0;
+  z-index: 9;
+  background-color: #d3d3d3 !important;
+  font-weight: bold;
+  border-top: 2px solid #000 !important;
 }
 
 .headerCell {
