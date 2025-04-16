@@ -34,11 +34,6 @@
   table-layout: auto;
 }
 
-div:has(.reportTable) {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
-
 .focus {
   font-weight: bold;
 }
