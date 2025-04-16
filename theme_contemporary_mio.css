@@ -34,6 +34,12 @@
   table-layout: auto;
 }
 
+div:has(.reportTable) {
+  overflow: auto;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
 .focus {
   font-weight: bold;
 }
@@ -60,7 +66,8 @@ table.reportTable th {
   top: 0;
   z-index: 1000;
   border: 1px solid #cccccc;
-  border-bottom: 1px solid #000000 !important;
+/*   border-bottom: 1px solid #000000 !important; */
+  box-shadow: 0 2px 0 #000000;
   padding: 5px;
   background-color: #009797;
   color: white;
@@ -132,7 +139,7 @@ table.reportTable td {
   background: #d3d3d3 !important;
   position: sticky;
   bottom: 0;
-  z-index: 1000;
+  z-index: 15;
 }
 
 
