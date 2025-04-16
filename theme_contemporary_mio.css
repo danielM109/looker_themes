@@ -50,7 +50,7 @@
   font-family: Open Sans, Helvetica, Arial, Noto Sans SC, Noto Sans TC,
     sans-serif;
   border: 1px solid #cccccc;
-/*   border-collapse: collapse; */
+  border-collapse: collapse;
   border-spacing: 0px;
 }
 
@@ -131,8 +131,7 @@ table.reportTable td {
   background: #d3d3d3;
   position: sticky;
   bottom: 0;
-  z-index: 5;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 0;
 }
 
 
