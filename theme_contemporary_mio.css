@@ -47,6 +47,9 @@
 }
 
 .reportTable {
+  display: block;
+  max-height: 500px; /* o el alto que necesites */
+  overflow-y: auto;
   font-family: Open Sans, Helvetica, Arial, Noto Sans SC, Noto Sans TC,
     sans-serif;
   border: 1px solid #cccccc;
