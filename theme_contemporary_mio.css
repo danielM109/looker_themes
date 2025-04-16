@@ -122,6 +122,8 @@ table.reportTable td {
 .total.transposed {
   border-top: 0px !important;
   background: #d3d3d3;
+  position: fixed;
+  bottom: 0px; 
 }
 
 .rectElem.animated {
