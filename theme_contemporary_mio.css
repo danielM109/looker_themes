@@ -53,6 +53,7 @@
   border-collapse: collapse;
   border-spacing: 0px;
   table-layout: auto;
+  border-top: 0px;
 }
 
 table.reportTable th {
@@ -60,8 +61,7 @@ table.reportTable th {
   top: 0;
   z-index: 1000;
   border: 1px solid #cccccc;
-/*   border-bottom: 1px solid #000000 !important; */
-  box-shadow: 0 2px 0 #000000;
+  border-bottom: 1px solid #000000 !important;
   padding: 5px;
   background-color: #009797;
   color: white;
