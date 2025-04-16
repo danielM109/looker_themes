@@ -57,7 +57,7 @@
 table.reportTable th {
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 1000;
   border: 1px solid #cccccc;
   border-bottom: 1px solid #000000 !important;
   padding: 5px;
@@ -128,10 +128,10 @@ table.reportTable td {
 .total {
   border-top: 2px solid #000000 !important;
   font-weight: bold !important;
-  background: #d3d3d3;
+  background: #d3d3d3 !important;
   position: sticky;
   bottom: 0;
-  z-index: 9;
+  z-index: 1000;
 }
 
 
