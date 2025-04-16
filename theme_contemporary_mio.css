@@ -52,6 +52,9 @@
   border: 1px solid #cccccc;
   border-collapse: collapse;
   border-spacing: 3px;
+  display: block;
+  max-height: 500px; /* Ajusta este valor según tu necesidad */
+  overflow-y: auto;
 }
 
 table.reportTable th {
@@ -63,7 +66,6 @@ table.reportTable th {
   padding: 5px;
   background-color: #009797;
   color: white;
-  border-top: 4px solid #000000 !important; 
 }
 
 table.reportTable td {
@@ -134,7 +136,6 @@ table.reportTable td {
   bottom: 0;
   z-index: 5;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-  border-bottom: 4px solid #000000 !important; 
 }
 
 
