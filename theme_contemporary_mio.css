@@ -135,3 +135,11 @@ table.reportTable td {
   font-family: Open Sans, Helvetica, Arial, sans-serif;
   margin: 4px;
 }
+
+table.reportTable tr.total {
+  position: sticky;
+  bottom: 0;
+  background-color: #d3d3d3;
+  font-weight: bold;
+  z-index: 9;
+}
