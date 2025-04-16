@@ -63,7 +63,6 @@ table.reportTable th {
   padding: 5px;
   background-color: #009797;
   color: white;
-  margin-top: 0px;
 }
 
 table.reportTable td {
@@ -132,7 +131,7 @@ table.reportTable td {
   background: #d3d3d3;
   position: sticky;
   bottom: 0;
-  z-index: 5;
+  z-index: 9;
 }
 
 .total.transposed {
