@@ -72,6 +72,13 @@ table.reportTable td {
   border-collapse: collapse;
 }
 
+th {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1;
+}
+
 .headerCell {
   border-bottom: 1px solid #000000 !important;
   font-weight: bold;
