@@ -55,9 +55,14 @@
 }
 
 table.reportTable th {
+  position: sticky;
+  top: 0;
+  z-index: 10;
   border: 1px solid #cccccc;
   border-bottom: 1px solid #000000 !important;
   padding: 5px;
+  background-color: #009797;
+  color: white;
 }
 
 table.reportTable td {
