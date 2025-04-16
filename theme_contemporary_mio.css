@@ -47,9 +47,6 @@
 }
 
 .reportTable {
-  display: block;
-  max-height: 500px; /* o el alto que necesites */
-  overflow-y: auto;
   font-family: Open Sans, Helvetica, Arial, Noto Sans SC, Noto Sans TC,
     sans-serif;
   border: 1px solid #cccccc;
@@ -60,12 +57,13 @@
 table.reportTable th {
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 10;
   border: 1px solid #cccccc;
   border-bottom: 1px solid #000000 !important;
   padding: 5px;
   background-color: #009797;
   color: white;
+  border-bottom: 4px solid #000000 !important; 
 }
 
 table.reportTable td {
@@ -139,16 +137,16 @@ table.reportTable td {
 }*/
 
 .total {
-  background-color: #d3d3d3 !important;
+  border-top: 4px solid #000000 !important; /* 👈 Borde más grueso arriba */
+  font-weight: bold !important;
+  background: #d3d3d3 !important;
 }
 
 table.reportTable tr.total td {
   position: sticky;
   bottom: 0;
-  z-index: 99;
+  z-index: 1;
   background-color: #d3d3d3 !important;
-  border-top: 2px solid #000000 !important;
-  font-weight: bold;
   box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
