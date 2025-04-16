@@ -131,7 +131,7 @@ table.reportTable td {
   background: #d3d3d3;
   position: sticky;
   bottom: 0;
-  z-index: 9;
+  z-index: 99;
 }
 
 .total.transposed {
