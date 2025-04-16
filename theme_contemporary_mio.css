@@ -121,9 +121,18 @@ table.reportTable td {
   background: #d3d3d3;
 }
 
+/*.total {
+  border-top: 2px solid #000000 !important;
+  font-weight: bold !important;
+}*/
+
 .total {
   border-top: 2px solid #000000 !important;
   font-weight: bold !important;
+  background: #d3d3d3;
+  position: sticky;
+  bottom: 0;
+  z-index: 5;
 }
 
 .total.transposed {
@@ -136,10 +145,3 @@ table.reportTable td {
   margin: 4px;
 }
 
-table.reportTable tr.total {
-  position: sticky;
-  bottom: 0;
-  background-color: #d3d3d3;
-  font-weight: bold;
-  z-index: 9;
-}
