@@ -34,6 +34,21 @@
   table-layout: auto;
 }
 
+tbody {
+      border-top: 10px;
+}
+
+td[data-column="% Dif. Proyectado / Ate. Año Anterior"]:has(span:contains("-"))::before {
+  content: "🔻 ";
+  color: red;
+}
+
+/* Positivos: flecha arriba verde 🔺 */
+td[data-column="% Dif. Proyectado / Ate. Año Anterior"]:not(:has(span:contains("-")))::before {
+  content: "🔺 ";
+  color: green;
+}
+
 .focus {
   font-weight: bold;
 }
