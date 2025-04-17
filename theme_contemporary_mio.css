@@ -30,12 +30,13 @@
 .tooltipTable {
   font-family: Open Sans, Helvetica, Arial, sans-serif;
   border: 0px;
-  border-collapse: collapse;
-  table-layout: auto;
+/*   border-collapse: collapse; */
 }
 
-tbody {
-      border-top: 10px;
+td[data-column="% Dif. Proyectado / Ate. Año Anterior"] {
+  font-weight: bold;
+  text-align: right;
+  padding-right: 10px;
 }
 
 td[data-column="% Dif. Proyectado / Ate. Año Anterior"]:has(span:contains("-"))::before {
