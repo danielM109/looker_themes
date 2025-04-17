@@ -30,7 +30,7 @@
 .tooltipTable {
   font-family: Open Sans, Helvetica, Arial, sans-serif;
   border: 0px;
-/*   border-collapse: collapse; */
+  border-collapse: collapse;
 }
 
 td[data-column="% Dif. Proyectado / Ate. Año Anterior"] {
@@ -66,10 +66,8 @@ td[data-column="% Dif. Proyectado / Ate. Año Anterior"]:not(:has(span:contains(
   font-family: Open Sans, Helvetica, Arial, Noto Sans SC, Noto Sans TC,
     sans-serif;
   border: 1px solid #cccccc;
-  border-collapse: collapse;
+/*   border-collapse: collapse; */
   border-spacing: 0px;
-  table-layout: auto;
-  border-top: 10px;
 }
 
 table.reportTable th {
